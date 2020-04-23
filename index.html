@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width-device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Validation form using javascript.</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <div class = "wrapper">
+        <h2>Contact form</h2>
+        <div id =  "error_message"></div>
+
+        <form id = "myform" onsubmit = "return Validation()">
+        <div class = "input_field">
+        <input type = "text" placeholder = "name" id = "name">
+        </div>
+
+          <div class = "input_field">
+             <input type = "text" placeholder="subject" id ="subject">
+          </div>
+           
+           <div class = "input_field">
+           <input type = "text" placeholder = "Phone" id ="Phone">
+           </div>
+
+           <div class = "input_field">
+           <input type = "text" placeholder = "Email" id ="Email">
+           </div>
+  
+            <div class = "input_field">
+            <textarea = id = "Message" placeholder = "Message"></textarea>
+            </div>
+
+            <div class = "botton">
+            <input type = "submit">
+           
+        </form>
+    </div>
+</body>
+</html>
